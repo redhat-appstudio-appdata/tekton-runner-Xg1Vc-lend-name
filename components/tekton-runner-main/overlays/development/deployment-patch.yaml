@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: tekton-runner-main
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/tekton-runner/tekton-runner-main@sha256:4c97a9cb0c312ef256f0cc92352b83de2e67db01dea18c6aaf14646efa2b0b88
+        name: container-image
+        resources: {}
+status: {}
