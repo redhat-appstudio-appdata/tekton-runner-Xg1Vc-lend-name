@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: tekton-runner-main
     app.kubernetes.io/part-of: tekton-runner
-  name: tekton-runner-mainidy6
+  name: tekton-runner-mainpbiy
 spec:
   port:
     targetPort: 8080
