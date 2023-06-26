@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/tekton-runner/tekton-runner-main@sha256:4c97a9cb0c312ef256f0cc92352b83de2e67db01dea18c6aaf14646efa2b0b88
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/tekton-runner/tekton-runner-main@sha256:fca15a5d7c68e7a4aec24847c4cc6a955ebafe57aa613339107391cce4a28ddd
         name: container-image
         resources: {}
 status: {}
