@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: tekton-runner-main
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/tekton-runner/tekton-runner-main@sha256:7b8f6130988f640933b9816d346e05390dde340f8745ea4758052ae55b5b6ab9
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/tekton-runner/tekton-runner-main@sha256:4c97a9cb0c312ef256f0cc92352b83de2e67db01dea18c6aaf14646efa2b0b88
         imagePullPolicy: Always
         name: container-image
         ports:
