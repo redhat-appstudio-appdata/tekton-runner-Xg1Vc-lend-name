@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: tekton-runner
   name: tekton-runner-main
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
